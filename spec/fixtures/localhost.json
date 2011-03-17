@@ -1,0 +1,371 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>[{'found':
+ 5, 'what': 'loc', 'command': 'get', 'result': 'ok', 'entries': 
+[{'symbol': '\\/O', 'phg': '3860', 'srccall': 'VE2WMG', 'lat': 
+'48.52533', 'path': 'TCPIP*,qAC,T2ONTARIO', 'lng': '-42.42883', 
+'lasttime': '1275667572', 'name': 'w', 'dstcall': 'APU25N', 'time': 
+'1275666867', 'type': 'o'}, {'symbol': '\\/-', 'course': '160', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': 
+'28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'symbol': 
+'\\/\\/', 'phg': '3760', 'srccall': 'EI7IG-11', 'lat': '52.25833', 
+'path': 'TCPIP*,qAC,T2IRELAND', 'lng': '-7.11200', 'lasttime': 
+'1280852252', 'name': 't', 'dstcall': 'APX199', 'time': '1280844408', 
+'type': 'i'}, {'comment': '45\\u00f826\'20.89" N, 72\\u00f816\'50.97" 
+W', 'symbol': '\\/-', 'srccall': 'VE2WMG-2', 'lat': '45.43900', 'path': 
+'TCPIP*,qAC,T2MNTREAL', 'lng': '-72.28083', 'lasttime': '1277936482', 
+'name': 'd', 'dstcall': 'APU25N', 'time': '1277936449', 'type': 'o'}, 
+{'symbol': '\\/-', 'course': '48', 'path': 'TCPIP*,qAC,AHUBSWE2', 'lat':
+ '-47.08667', 'srccall': 'DL5SM-11', 'lng': '-167.81767', 'lasttime': 
+'1274263948', 'speed': '1850', 'name': 'm', 'dstcall': 'APU25N', 'time':
+ '1274263948', 'type': 'o'}]}, {'found': 5, 'what': 'loc', 'command': 
+'get', 'result': 'ok', 'entries': [{'path': 'TCPIP*,qAC,T2JKTUT', 
+'name': 'K', 'time': '1286126632', 'lat': '1.42550', 'srccall': 'YC8TK',
+ 'lng': '124.57633', 'lasttime': '1286126632', 'type': 'o', 'symbol': 
+'\\/-', 'dstcall': 'APU25N'}, {'symbol': '\\/-', 'course': '160', 
+'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11',
+ 'lng': '28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': 
+'6', 'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'path': 
+'QUEEST,WIDE1*,WIDE2-2,qAR,VE7NOR-1', 'name': 'G', 'time': '1274524876',
+ 'lat': '50.21450', 'srccall': 'VA7RMM', 'lng': '-119.28483', 
+'lasttime': '1274524911', 'type': 'o', 'symbol': '\\0', 'dstcall': 
+'APAGW'}, {'comment': '', 'symbol': '\\/O', 'srccall': '9W2ALS-3', 
+'lat': '5.66233', 'path': 'TCPIP*,qAS,9W2ALS', 'lng': '100.63400', 
+'lasttime': '1285876279', 'name': 'o', 'dstcall': 'APAGW', 'time': 
+'1283183337', 'type': 'o'}, {'comment': '45\\u00f826\'20.89" N, 
+72\\u00f816\'50.97" W', 'symbol': '\\/-', 'srccall': 'VE2WMG-2', 'lat': 
+'45.43900', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-72.28083', 
+'lasttime': '1277936482', 'name': 'd', 'dstcall': 'APU25N', 'time': 
+'1277936449', 'type': 'o'}]}, {'found': 5, 'what': 'loc', 'command': 
+'get', 'result': 'ok', 'entries': [{'path': 'TCPIP*,qAC,T2JKTUT', 
+'name': 'K', 'time': '1286126632', 'lat': '1.42550', 'srccall': 'YC8TK',
+ 'lng': '124.57633', 'lasttime': '1286126632', 'type': 'o', 'symbol': 
+'\\/-', 'dstcall': 'APU25N'}, {'symbol': '\\/-', 'course': '160', 
+'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11',
+ 'lng': '28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': 
+'6', 'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'path': 
+'QUEEST,WIDE1*,WIDE2-2,qAR,VE7NOR-1', 'name': 'G', 'time': '1274524876',
+ 'lat': '50.21450', 'srccall': 'VA7RMM', 'lng': '-119.28483', 
+'lasttime': '1274524911', 'type': 'o', 'symbol': '\\0', 'dstcall': 
+'APAGW'}, {'comment': '', 'symbol': '\\/O', 'srccall': '9W2ALS-3', 
+'lat': '5.66233', 'path': 'TCPIP*,qAS,9W2ALS', 'lng': '100.63400', 
+'lasttime': '1285876279', 'name': 'o', 'dstcall': 'APAGW', 'time': 
+'1283183337', 'type': 'o'}, {'comment': '45\\u00f826\'20.89" N, 
+72\\u00f816\'50.97" W', 'symbol': '\\/-', 'srccall': 'VE2WMG-2', 'lat': 
+'45.43900', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-72.28083', 
+'lasttime': '1277936482', 'name': 'd', 'dstcall': 'APU25N', 'time': 
+'1277936449', 'type': 'o'}]}, {'found': 5, 'what': 'loc', 'command': 
+'get', 'result': 'ok', 'entries': [{'path': 'TCPIP*,qAC,T2JKTUT', 
+'name': 'K', 'time': '1286126632', 'lat': '1.42550', 'srccall': 'YC8TK',
+ 'lng': '124.57633', 'lasttime': '1286126632', 'type': 'o', 'symbol': 
+'\\/-', 'dstcall': 'APU25N'}, {'symbol': '\\/-', 'course': '160', 
+'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11',
+ 'lng': '28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': 
+'6', 'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'path': 
+'QUEEST,WIDE1*,WIDE2-2,qAR,VE7NOR-1', 'name': 'G', 'time': '1274524876',
+ 'lat': '50.21450', 'srccall': 'VA7RMM', 'lng': '-119.28483', 
+'lasttime': '1274524911', 'type': 'o', 'symbol': '\\0', 'dstcall': 
+'APAGW'}, {'comment': '', 'symbol': '\\/O', 'srccall': '9W2ALS-3', 
+'lat': '5.66233', 'path': 'TCPIP*,qAS,9W2ALS', 'lng': '100.63400', 
+'lasttime': '1285876279', 'name': 'o', 'dstcall': 'APAGW', 'time': 
+'1283183337', 'type': 'o'}, {'comment': '45\\u00f826\'20.89" N, 
+72\\u00f816\'50.97" W', 'symbol': '\\/-', 'srccall': 'VE2WMG-2', 'lat': 
+'45.43900', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-72.28083', 
+'lasttime': '1277936482', 'name': 'd', 'dstcall': 'APU25N', 'time': 
+'1277936449', 'type': 'o'}]}, {'found': 6, 'what': 'loc', 'command': 
+'get', 'result': 'ok', 'entries': [{'path': 'TCPIP*,qAC,T2JKTUT', 
+'name': 'K', 'time': '1286126632', 'lat': '1.42550', 'srccall': 'YC8TK',
+ 'lng': '124.57633', 'lasttime': '1286126632', 'type': 'o', 'symbol': 
+'\\/-', 'dstcall': 'APU25N'}, {'comment': '45\\u00f826\'20.89" N, 
+72\\u00f816\'50.97" W', 'symbol': '\\/-', 'srccall': 'VE2WMG-2', 'lat': 
+'45.43900', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-72.28083', 
+'lasttime': '1277936482', 'name': 'd', 'dstcall': 'APU25N', 'time': 
+'1277936449', 'type': 'o'}, {'symbol': '\\/-', 'course': '160', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': 
+'28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'path': 
+'IR1AX,IR1AV,IR1AN*,TRACE4-1,qAR,IW1RNH', 'name': 'C', 'time': 
+'1277901619', 'lat': '44.81250', 'srccall': 'IZ1MLT', 'lng': '9.21000', 
+'lasttime': '1277904360', 'type': 'o', 'symbol': '\\/\\/', 'dstcall': 
+'APU25N'}, {'path': 'IR1AX,IR1AV,IR1AN*,TRACE4-1,qAR,IW1RNH', 'name': 
+'C', 'time': '1277901619', 'lat': '44.81250', 'srccall': 'IZ1MLT', 
+'lng': '9.21000', 'lasttime': '1277904360', 'type': 'o', 'symbol': 
+'\\/\\/', 'dstcall': 'APU25N'}, {'path': 'qAR,PA3WEG-6', 'name': 'q', 
+'time': '1274706630', 'lat': '52.00817', 'srccall': 'PA3GQF', 'lng': 
+'4.81200', 'lasttime': '1274706932', 'type': 'o', 'symbol': '\\/-', 
+'dstcall': 'WIDE2-2'}]}, {'found': 4, 'what': 'loc', 'command': 'get', 
+'result': 'ok', 'entries': [{'path': 'TCPIP*,qAC,T2JKTUT', 'name': 'K', 
+'time': '1286126632', 'lat': '1.42550', 'srccall': 'YC8TK', 'lng': 
+'124.57633', 'lasttime': '1286126632', 'type': 'o', 'symbol': '\\/-', 
+'dstcall': 'APU25N'}, {'path': 'TCPIP*,qAC,T2KOBLENZ', 'name': 'U', 
+'time': '1262886942', 'lat': '48.89083', 'srccall': 'OM6RU', 'lng': 
+'20.12167', 'lasttime': '1262888699', 'type': 'o', 'symbol': '\\/m', 
+'dstcall': 'APU25N'}, {'symbol': '\\/-', 'course': '160', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': 
+'28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'path': 
+'TCPIP*,qAC,T2THAPR-1', 'name': 'P', 'time': '1284344679', 'lat': 
+'13.35983', 'srccall': 'E21RBE', 'lng': '100.98383', 'lasttime': 
+'1284716665', 'type': 'o', 'symbol': '\\/!', 'dstcall': 'APRSTH'}]}, 
+{'found': 5, 'what': 'loc', 'command': 'get', 'result': 'ok', 'entries':
+ [{'comment': '145.750MHz Ctcss:82.5 (75m\\/245ft)', 'symbol': '\\/r', 
+'phg': '3566', 'path': 'DB0EMS,DB0PDF-10*,qAR,DF5KX-3', 'lat': 
+'53.20100', 'srccall': 'PE1OID', 'lng': '6.55133', 'lasttime': 
+'1283892234', 'name': 'N', 'dstcall': 'APX194', 'time': '1283839724', 
+'type': 'i'}, {'symbol': '\\/-', 'course': '160', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': 
+'28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'comment': 
+'4533.53N\\/07313.64W', 'symbol': '\\/-', 'srccall': 'VE2WMG', 'lat': 
+'45.55883', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-73.22733', 
+'lasttime': '1286631980', 'name': 'b', 'dstcall': 'APU25N', 'time': 
+'1286631980', 'type': 'o'}, {'comment': '45\\u00f826\'20.89" N, 
+72\\u00f816\'50.97" W', 'symbol': '\\/-', 'srccall': 'VE2WMG-2', 'lat': 
+'45.43900', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-72.28083', 
+'lasttime': '1277936482', 'name': 'd', 'dstcall': 'APU25N', 'time': 
+'1277936449', 'type': 'o'}, {'path': 'IR1AX,IR1BR*,TRACE4-2,qAR,IW1RNH',
+ 'name': 'E', 'time': '1267712013', 'lat': '44.51883', 'srccall': 
+'IZ1MLT', 'lng': '8.91650', 'lasttime': '1267713900', 'type': 'o', 
+'symbol': '\\/\\/', 'dstcall': 'APU25N'}]}, {'found': 5, 'what': 'loc', 
+'command': 'get', 'result': 'ok', 'entries': [{'path': 
+'TCPIP*,qAC,T2JKTUT', 'name': 'K', 'time': '1286126632', 'lat': 
+'1.42550', 'srccall': 'YC8TK', 'lng': '124.57633', 'lasttime': 
+'1286126632', 'type': 'o', 'symbol': '\\/-', 'dstcall': 'APU25N'}, 
+{'symbol': '\\/-', 'course': '160', 'path': 'TCPIP*,qAC,AHUBSWE2', 
+'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': '28.09500', 'lasttime':
+ '1283942549', 'speed': '1850', 'name': '6', 'dstcall': 'APU25N', 
+'time': '1283942549', 'type': 'o'}, {'comment': 'l', 'symbol': '\\/-', 
+'srccall': 'KC0QBU', 'lat': '36.99033', 'path': 
+'KB0WZI-3*,WIDE1,WIDE3-3,qAR,KH6VO-4', 'lng': '-93.23867', 'lasttime': 
+'1260648319', 'name': 'l', 'dstcall': 'APU25N', 'time': '1260625395', 
+'type': 'o'}, {'comment': 'l', 'symbol': '\\/-', 'srccall': 'KC0QBU', 
+'lat': '36.99033', 'path': 'KB0WZI-3*,WIDE1,WIDE3-3,qAR,KH6VO-4', 'lng':
+ '-93.23867', 'lasttime': '1260648319', 'name': 'l', 'dstcall': 
+'APU25N', 'time': '1260625395', 'type': 'o'}, {'path': 
+'IR1AX,IR1AV,IR1AN*,TRACE4-1,qAR,IW1RNH', 'name': 'C', 'time': 
+'1277901619', 'lat': '44.81250', 'srccall': 'IZ1MLT', 'lng': '9.21000', 
+'lasttime': '1277904360', 'type': 'o', 'symbol': '\\/\\/', 'dstcall': 
+'APU25N'}]}, {'found': 6, 'what': 'loc', 'command': 'get', 'result': 
+'ok', 'entries': [{'symbol': '\\/O', 'phg': '3860', 'srccall': 'VE2WMG',
+ 'lat': '48.52533', 'path': 'TCPIP*,qAC,T2ONTARIO', 'lng': '-42.42883', 
+'lasttime': '1275667572', 'name': 'w', 'dstcall': 'APU25N', 'time': 
+'1275666867', 'type': 'o'}, {'comment': '45\\u00f826\'20.89" N, 
+72\\u00f816\'50.97" W', 'symbol': '\\/-', 'srccall': 'VE2WMG-2', 'lat': 
+'45.43900', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-72.28083', 
+'lasttime': '1277936482', 'name': 'd', 'dstcall': 'APU25N', 'time': 
+'1277936449', 'type': 'o'}, {'symbol': '\\/-', 'course': '160', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': 
+'28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'path': 
+'IR1AX,IR1BR*,TRACE4-2,qAR,IW1RNH', 'name': 'E', 'time': '1267712013', 
+'lat': '44.51883', 'srccall': 'IZ1MLT', 'lng': '8.91650', 'lasttime': 
+'1267713900', 'type': 'o', 'symbol': '\\/\\/', 'dstcall': 'APU25N'}, 
+{'path': 'IR1AX,IR1BR*,TRACE4-2,qAR,IW1RNH', 'name': 'E', 'time': 
+'1267712013', 'lat': '44.51883', 'srccall': 'IZ1MLT', 'lng': '8.91650', 
+'lasttime': '1267713900', 'type': 'o', 'symbol': '\\/\\/', 'dstcall': 
+'APU25N'}, {'path': 'IR1AX,IR1BR*,TRACE4-2,qAR,IW1RNH', 'name': 'E', 
+'time': '1267712013', 'lat': '44.51883', 'srccall': 'IZ1MLT', 'lng': 
+'8.91650', 'lasttime': '1267713900', 'type': 'o', 'symbol': '\\/\\/', 
+'dstcall': 'APU25N'}]}, {'found': 5, 'what': 'loc', 'command': 'get', 
+'result': 'ok', 'entries': [{'comment': 'Tgt', 'symbol': '\\/&gt;', 
+'phg': '6730', 'course': 0, 'path': 'TCPIP*,qAC,N6NAR', 'lat': 
+'12.93400', 'srccall': 'HS2DIY', 'lng': '100.89350', 'lasttime': 
+'1286695358', 'speed': 0, 'name': 'a', 'dstcall': '', 'time': 
+'1286182287', 'type': 'o'}, {'comment': '4533.53N\\/07313.64W', 
+'symbol': '\\/-', 'srccall': 'VE2WMG', 'lat': '45.55883', 'path': 
+'TCPIP*,qAC,T2MNTREAL', 'lng': '-73.22733', 'lasttime': '1286631980', 
+'name': 'b', 'dstcall': 'APU25N', 'time': '1286631980', 'type': 'o'}, 
+{'symbol': '\\/-', 'course': '160', 'path': 'TCPIP*,qAC,AHUBSWE2', 
+'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': '28.09500', 'lasttime':
+ '1283942549', 'speed': '1850', 'name': '6', 'dstcall': 'APU25N', 
+'time': '1283942549', 'type': 'o'}, {'symbol': '\\/-', 'course': '48', 
+'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '-47.08667', 'srccall': 
+'DL5SM-11', 'lng': '-167.81767', 'lasttime': '1274263948', 'speed': 
+'1850', 'name': 'm', 'dstcall': 'APU25N', 'time': '1274263948', 'type': 
+'o'}, {'symbol': '\\/-', 'course': '48', 'path': 'TCPIP*,qAC,AHUBSWE2', 
+'lat': '-47.08667', 'srccall': 'DL5SM-11', 'lng': '-167.81767', 
+'lasttime': '1274263948', 'speed': '1850', 'name': 'm', 'dstcall': 
+'APU25N', 'time': '1274263948', 'type': 'o'}]}, {'found': 5, 'what': 
+'loc', 'command': 'get', 'result': 'ok', 'entries': [{'path': 
+'TCPIP*,qAC,T2JKTUT', 'name': 'K', 'time': '1286126632', 'lat': 
+'1.42550', 'srccall': 'YC8TK', 'lng': '124.57633', 'lasttime': 
+'1286126632', 'type': 'o', 'symbol': '\\/-', 'dstcall': 'APU25N'}, 
+{'symbol': '\\/0', 'course': '0', 'path': 'TCPIP*,qAC,N6NAR', 'lat': 
+'43.33100', 'srccall': 'EI2GT', 'lng': '-1.76667', 'lasttime': 
+'1278960975', 'speed': '0', 'name': 'I', 'dstcall': '', 'time': 
+'1278960506', 'type': 'o'}, {'symbol': '\\/-', 'course': '160', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': 
+'28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'symbol': 
+'\\/O', 'phg': '3860', 'srccall': 'VE2WMG', 'lat': '48.52533', 'path': 
+'TCPIP*,qAC,T2ONTARIO', 'lng': '-42.42883', 'lasttime': '1275667572', 
+'name': 'w', 'dstcall': 'APU25N', 'time': '1275666867', 'type': 'o'}, 
+{'path': 'QUEEST,WIDE1*,WIDE2-2,qAR,VE7NOR-1', 'name': 'G', 'time': 
+'1274524876', 'lat': '50.21450', 'srccall': 'VA7RMM', 'lng': 
+'-119.28483', 'lasttime': '1274524911', 'type': 'o', 'symbol': '\\0', 
+'dstcall': 'APAGW'}]}, {'found': 5, 'what': 'loc', 'command': 'get', 
+'result': 'ok', 'entries': [{'comment': '145.750MHz Ctcss:82.5 
+(75m\\/245ft)', 'symbol': '\\/r', 'phg': '3566', 'path': 
+'DB0EMS,DB0PDF-10*,qAR,DF5KX-3', 'lat': '53.20100', 'srccall': 'PE1OID',
+ 'lng': '6.55133', 'lasttime': '1283892234', 'name': 'N', 'dstcall': 
+'APX194', 'time': '1283839724', 'type': 'i'}, {'symbol': '\\/-', 
+'course': '160', 'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 
+'srccall': 'DJ9VF-11', 'lng': '28.09500', 'lasttime': '1283942549', 
+'speed': '1850', 'name': '6', 'dstcall': 'APU25N', 'time': '1283942549',
+ 'type': 'o'}, {'path': 'QUEEST,WIDE1*,WIDE2-2,qAR,VE7NOR-1', 'name': 
+'G', 'time': '1274524876', 'lat': '50.21450', 'srccall': 'VA7RMM', 
+'lng': '-119.28483', 'lasttime': '1274524911', 'type': 'o', 'symbol': 
+'\\0', 'dstcall': 'APAGW'}, {'path': 'WIDE2-2*,qAS,OE1SSU-10', 'name': 
+'v', 'time': '1264185721', 'lat': '46.76667', 'srccall': 'HA1IW-10', 
+'lng': '19.76350', 'lasttime': '1267634585', 'type': 'o', 'symbol': 
+'\\/-', 'dstcall': 'WIDE1'}, {'symbol': '\\/0', 'course': '0', 'path': 
+'TCPIP*,qAC,N6NAR', 'lat': '43.33100', 'srccall': 'EI2GT', 'lng': 
+'-1.76667', 'lasttime': '1278960975', 'speed': '0', 'name': 'I', 
+'dstcall': '', 'time': '1278960506', 'type': 'o'}]}, {'found': 5, 
+'what': 'loc', 'command': 'get', 'result': 'ok', 'entries': [{'path': 
+'TCPIP*,qAC,T2JKTUT', 'name': 'K', 'time': '1286126632', 'lat': 
+'1.42550', 'srccall': 'YC8TK', 'lng': '124.57633', 'lasttime': 
+'1286126632', 'type': 'o', 'symbol': '\\/-', 'dstcall': 'APU25N'}, 
+{'path': 'TCPIP*,qAC,THIRD', 'name': '1', 'time': '1286668977', 'lat': 
+'40.60033', 'srccall': 'SV2HRW', 'lng': '23.08433', 'lasttime': 
+'1286670064', 'type': 'o', 'symbol': '\\/-', 'dstcall': 'APU25N'}, 
+{'comment': '4533.53N\\/07313.64W', 'symbol': '\\/-', 'srccall': 
+'VE2WMG', 'lat': '45.55883', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': 
+'-73.22733', 'lasttime': '1286631980', 'name': 'b', 'dstcall': 'APU25N',
+ 'time': '1286631980', 'type': 'o'}, {'symbol': '\\/-', 'course': '48', 
+'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '-47.08667', 'srccall': 
+'DL5SM-11', 'lng': '-167.81767', 'lasttime': '1274263948', 'speed': 
+'1850', 'name': 'm', 'dstcall': 'APU25N', 'time': '1274263948', 'type': 
+'o'}, {'symbol': '\\/O', 'phg': '3860', 'srccall': 'VE2WMG', 'lat': 
+'48.52533', 'path': 'TCPIP*,qAC,T2ONTARIO', 'lng': '-42.42883', 
+'lasttime': '1275667572', 'name': 'w', 'dstcall': 'APU25N', 'time': 
+'1275666867', 'type': 'o'}]}, {'found': 5, 'what': 'loc', 'command': 
+'get', 'result': 'ok', 'entries': [{'comment': '145.750MHz Ctcss:82.5 
+(75m\\/245ft)', 'symbol': '\\/r', 'phg': '3566', 'path': 
+'DB0EMS,DB0PDF-10*,qAR,DF5KX-3', 'lat': '53.20100', 'srccall': 'PE1OID',
+ 'lng': '6.55133', 'lasttime': '1283892234', 'name': 'N', 'dstcall': 
+'APX194', 'time': '1283839724', 'type': 'i'}, {'symbol': '\\/-', 
+'course': '160', 'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 
+'srccall': 'DJ9VF-11', 'lng': '28.09500', 'lasttime': '1283942549', 
+'speed': '1850', 'name': '6', 'dstcall': 'APU25N', 'time': '1283942549',
+ 'type': 'o'}, {'path': 'qAR,PA3WEG-6', 'name': 'q', 'time': 
+'1274706630', 'lat': '52.00817', 'srccall': 'PA3GQF', 'lng': '4.81200', 
+'lasttime': '1274706932', 'type': 'o', 'symbol': '\\/-', 'dstcall': 
+'WIDE2-2'}, {'path': 'QUEEST,WIDE1*,WIDE2-2,qAR,VE7NOR-1', 'name': 'G', 
+'time': '1274524876', 'lat': '50.21450', 'srccall': 'VA7RMM', 'lng': 
+'-119.28483', 'lasttime': '1274524911', 'type': 'o', 'symbol': '\\0', 
+'dstcall': 'APAGW'}, {'path': 'TCPIP*,qAC,T2MIDWEST', 'name': 'Z', 
+'time': '1273622543', 'lat': '47.94117', 'srccall': 'N0HOY-1', 'lng': 
+'10.77400', 'lasttime': '1279664414', 'type': 'o', 'symbol': '\\/-', 
+'dstcall': 'APU25N'}]}, {'found': 5, 'what': 'loc', 'command': 'get', 
+'result': 'ok', 'entries': [{'symbol': '\\/O', 'phg': '3860', 'srccall':
+ 'VE2WMG', 'lat': '48.52533', 'path': 'TCPIP*,qAC,T2ONTARIO', 'lng': 
+'-42.42883', 'lasttime': '1275667572', 'name': 'w', 'dstcall': 'APU25N',
+ 'time': '1275666867', 'type': 'o'}, {'symbol': '\\/-', 'course': '160',
+ 'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 
+'DJ9VF-11', 'lng': '28.09500', 'lasttime': '1283942549', 'speed': 
+'1850', 'name': '6', 'dstcall': 'APU25N', 'time': '1283942549', 'type': 
+'o'}, {'comment': 'Target', 'symbol': '\\/m', 'srccall': 'OM6RU', 'lat':
+ '49.01917', 'path': 'TCPIP*,qAC,T2KOBLENZ', 'lng': '20.87100', 
+'lasttime': '1262888711', 'name': 'Y', 'dstcall': 'APU25N', 'time': 
+'1262886954', 'type': 'o'}, {'comment': '', 'symbol': '\\/O', 'srccall':
+ '9W2ALS-3', 'lat': '5.66233', 'path': 'TCPIP*,qAS,9W2ALS', 'lng': 
+'100.63400', 'lasttime': '1285876279', 'name': 'o', 'dstcall': 'APAGW', 
+'time': '1283183337', 'type': 'o'}, {'path': 'TCPIP*,qAC,T2THAPR-1', 
+'name': 'P', 'time': '1284344679', 'lat': '13.35983', 'srccall': 
+'E21RBE', 'lng': '100.98383', 'lasttime': '1284716665', 'type': 'o', 
+'symbol': '\\/!', 'dstcall': 'APRSTH'}]}, {'found': 5, 'what': 'loc', 
+'command': 'get', 'result': 'ok', 'entries': [{'comment': '145.750MHz 
+Ctcss:82.5 (75m\\/245ft)', 'symbol': '\\/r', 'phg': '3566', 'path': 
+'DB0EMS,DB0PDF-10*,qAR,DF5KX-3', 'lat': '53.20100', 'srccall': 'PE1OID',
+ 'lng': '6.55133', 'lasttime': '1283892234', 'name': 'N', 'dstcall': 
+'APX194', 'time': '1283839724', 'type': 'i'}, {'symbol': '\\/-', 
+'course': '160', 'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 
+'srccall': 'DJ9VF-11', 'lng': '28.09500', 'lasttime': '1283942549', 
+'speed': '1850', 'name': '6', 'dstcall': 'APU25N', 'time': '1283942549',
+ 'type': 'o'}, {'comment': 'Tgt', 'symbol': '\\/&gt;', 'phg': '6730', 
+'course': 0, 'path': 'TCPIP*,qAC,N6NAR', 'lat': '12.93400', 'srccall': 
+'HS2DIY', 'lng': '100.89350', 'lasttime': '1286695358', 'speed': 0, 
+'name': 'a', 'dstcall': '', 'time': '1286182287', 'type': 'o'}, 
+{'symbol': '\\/-', 'course': '48', 'path': 'TCPIP*,qAC,AHUBSWE2', 'lat':
+ '-47.08667', 'srccall': 'DL5SM-11', 'lng': '-167.81767', 'lasttime': 
+'1274263948', 'speed': '1850', 'name': 'm', 'dstcall': 'APU25N', 'time':
+ '1274263948', 'type': 'o'}, {'path': 
+'QUEEST,WIDE1*,WIDE2-2,qAR,VE7NOR-1', 'name': 'G', 'time': '1274524876',
+ 'lat': '50.21450', 'srccall': 'VA7RMM', 'lng': '-119.28483', 
+'lasttime': '1274524911', 'type': 'o', 'symbol': '\\0', 'dstcall': 
+'APAGW'}]}, {'found': 6, 'what': 'loc', 'command': 'get', 'result': 
+'ok', 'entries': [{'symbol': '\\/O', 'phg': '3860', 'srccall': 'VE2WMG',
+ 'lat': '48.52533', 'path': 'TCPIP*,qAC,T2ONTARIO', 'lng': '-42.42883', 
+'lasttime': '1275667572', 'name': 'w', 'dstcall': 'APU25N', 'time': 
+'1275666867', 'type': 'o'}, {'comment': '4533.53N\\/07313.64W', 
+'symbol': '\\/-', 'srccall': 'VE2WMG', 'lat': '45.55883', 'path': 
+'TCPIP*,qAC,T2MNTREAL', 'lng': '-73.22733', 'lasttime': '1286631980', 
+'name': 'b', 'dstcall': 'APU25N', 'time': '1286631980', 'type': 'o'}, 
+{'symbol': '\\/-', 'course': '160', 'path': 'TCPIP*,qAC,AHUBSWE2', 
+'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': '28.09500', 'lasttime':
+ '1283942549', 'speed': '1850', 'name': '6', 'dstcall': 'APU25N', 
+'time': '1283942549', 'type': 'o'}, {'symbol': '\\/-', 'course': '160', 
+'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11',
+ 'lng': '28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': 
+'6', 'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, 
+{'comment': '0101107', 'symbol': '\\/m', 'srccall': 'OM6RU', 'lat': 
+'49.10250', 'path': 'TCPIP*,qAC,T2KOBLENZ', 'lng': '18.78833', 
+'lasttime': '1262888695', 'name': 'R', 'dstcall': 'APU25N', 'time': 
+'1262886939', 'type': 'o'}, {'symbol': '\\/-', 'course': '48', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '-47.08667', 'srccall': 'DL5SM-11', 'lng':
+ '-167.81767', 'lasttime': '1274263948', 'speed': '1850', 'name': 'm', 
+'dstcall': 'APU25N', 'time': '1274263948', 'type': 'o'}]}, {'found': 5, 
+'what': 'loc', 'command': 'get', 'result': 'ok', 'entries': [{'comment':
+ 'Tgt', 'symbol': '\\/&gt;', 'phg': '6730', 'course': 0, 'path': 
+'TCPIP*,qAC,N6NAR', 'lat': '12.93400', 'srccall': 'HS2DIY', 'lng': 
+'100.89350', 'lasttime': '1286695358', 'speed': 0, 'name': 'a', 
+'dstcall': '', 'time': '1286182287', 'type': 'o'}, {'comment': 
+'4533.53N\\/07313.64W', 'symbol': '\\/-', 'srccall': 'VE2WMG', 'lat': 
+'45.55883', 'path': 'TCPIP*,qAC,T2MNTREAL', 'lng': '-73.22733', 
+'lasttime': '1286631980', 'name': 'b', 'dstcall': 'APU25N', 'time': 
+'1286631980', 'type': 'o'}, {'symbol': '\\/-', 'course': '160', 'path': 
+'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': 
+'28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'comment': 
+'l', 'symbol': '\\/-', 'srccall': 'KC0QBU', 'lat': '36.99033', 'path': 
+'KB0WZI-3*,WIDE1,WIDE3-3,qAR,KH6VO-4', 'lng': '-93.23867', 'lasttime': 
+'1260648319', 'name': 'l', 'dstcall': 'APU25N', 'time': '1260625395', 
+'type': 'o'}, {'symbol': '\\/0', 'course': '0', 'path': 
+'TCPIP*,qAC,N6NAR', 'lat': '43.33100', 'srccall': 'EI2GT', 'lng': 
+'-1.76667', 'lasttime': '1278960975', 'speed': '0', 'name': 'I', 
+'dstcall': '', 'time': '1278960506', 'type': 'o'}]}, {'found': 5, 
+'what': 'loc', 'command': 'get', 'result': 'ok', 'entries': [{'path': 
+'TCPIP*,qAC,T2JKTUT', 'name': 'K', 'time': '1286126632', 'lat': 
+'1.42550', 'srccall': 'YC8TK', 'lng': '124.57633', 'lasttime': 
+'1286126632', 'type': 'o', 'symbol': '\\/-', 'dstcall': 'APU25N'}, 
+{'symbol': '\\/-', 'course': '48', 'path': 'TCPIP*,qAC,AHUBSWE2', 'lat':
+ '-47.08667', 'srccall': 'DL5SM-11', 'lng': '-167.81767', 'lasttime': 
+'1274263948', 'speed': '1850', 'name': 'm', 'dstcall': 'APU25N', 'time':
+ '1274263948', 'type': 'o'}, {'symbol': '\\/-', 'course': '160', 'path':
+ 'TCPIP*,qAC,AHUBSWE2', 'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng':
+ '28.09500', 'lasttime': '1283942549', 'speed': '1850', 'name': '6', 
+'dstcall': 'APU25N', 'time': '1283942549', 'type': 'o'}, {'path': 
+'IR1AX,IR1BR*,TRACE4-2,qAR,IW1RNH', 'name': 'E', 'time': '1267712013', 
+'lat': '44.51883', 'srccall': 'IZ1MLT', 'lng': '8.91650', 'lasttime': 
+'1267713900', 'type': 'o', 'symbol': '\\/\\/', 'dstcall': 'APU25N'}, 
+{'path': 'IR1AX,IR1BR*,TRACE4-2,qAR,IW1RNH', 'name': 'E', 'time': 
+'1267712013', 'lat': '44.51883', 'srccall': 'IZ1MLT', 'lng': '8.91650', 
+'lasttime': '1267713900', 'type': 'o', 'symbol': '\\/\\/', 'dstcall': 
+'APU25N'}]}, {'found': 4, 'what': 'loc', 'command': 'get', 'result': 
+'ok', 'entries': [{'comment': '145.750MHz Ctcss:82.5 (75m\\/245ft)', 
+'symbol': '\\/r', 'phg': '3566', 'path': 
+'DB0EMS,DB0PDF-10*,qAR,DF5KX-3', 'lat': '53.20100', 'srccall': 'PE1OID',
+ 'lng': '6.55133', 'lasttime': '1283892234', 'name': 'N', 'dstcall': 
+'APX194', 'time': '1283839724', 'type': 'i'}, {'symbol': '\\/0', 
+'course': '0', 'path': 'TCPIP*,qAC,N6NAR', 'lat': '43.33100', 'srccall':
+ 'EI2GT', 'lng': '-1.76667', 'lasttime': '1278960975', 'speed': '0', 
+'name': 'I', 'dstcall': '', 'time': '1278960506', 'type': 'o'}, 
+{'symbol': '\\/-', 'course': '160', 'path': 'TCPIP*,qAC,AHUBSWE2', 
+'lat': '14.87950', 'srccall': 'DJ9VF-11', 'lng': '28.09500', 'lasttime':
+ '1283942549', 'speed': '1850', 'name': '6', 'dstcall': 'APU25N', 
+'time': '1283942549', 'type': 'o'}, {'symbol': '\\/-', 'course': '48', 
+'path': 'TCPIP*,qAC,AHUBSWE2', 'lat': '-47.08667', 'srccall': 
+'DL5SM-11', 'lng': '-167.81767', 'lasttime': '1274263948', 'speed': 
+'1850', 'name': 'm', 'dstcall': 'APU25N', 'time': '1274263948', 'type': 
+'o'}]}]</body></html>
