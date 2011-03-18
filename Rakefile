@@ -35,7 +35,7 @@ task :spec do
 end
 
 task :rcov do
-  RSpec::Core::RakeTask.new(:spec) do |t|
+  RSpec::Core::RakeTask.new(:rcov) do |t|
     t.rspec_opts = %w{--colour --format progress}
     t.rcov = true
     t.rcov_opts = ['-T', '--exclude', 'spec,gems']

@@ -34,10 +34,6 @@ class Freshmeat
       data["id"]
     end
 
-    def inspect
-      "#<#{self.class}:0x#{object_id}>"
-    end
-
   end
 
   class Tag < Data

@@ -1,7 +1,7 @@
 =begin
 
   Copyright (c) 2011 Matthew Stump
-  freshmat_spec.rb
+  freshmeat_spec.rb
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -17,6 +17,7 @@
 
 =end
 
+require 'rspec'
 require 'spec_helper'
 
 describe Freshmeat do
@@ -54,7 +55,7 @@ describe Freshmeat do
     p.recent_releases.map { |t| t.is_a?(Freshmeat::Release).should == true }
   end
 
-  describe "parameters" do
+  describe "authcode" do
     it "should require an auth code" do
       lambda { Freshmeat.new }.should raise_error(ArgumentError, "wrong number of arguments (0 for 1)")
     end
@@ -159,5 +160,3 @@ describe Freshmeat do
     end
   end
 end
-
-__END__
