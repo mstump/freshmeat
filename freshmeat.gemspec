@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "freshmeat.gemspec",
     "lib/freshmeat.rb",
     "lib/freshmeat/data.rb",
     "spec/fixtures/comments.json",
