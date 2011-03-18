@@ -2,6 +2,39 @@ require 'spec_helper'
 
 describe Freshmeat do
 
+  def test_project(p)
+    p.fid.is_a?(Integer).should == true
+    p.permalink.is_a?(String).should == true
+    p.name.is_a?(String).should == true
+    p.popularity.is_a?(Numeric).should == true
+    p.vitality.is_a?(Numeric).should == true
+    p.created_at.is_a?(Time).should == true
+    p.description.is_a?(String).should == true
+    p.user.is_a?(Freshmeat::User).should == true
+    p.oneliner.is_a?(String).should == true
+    p.project_filters_count.is_a?(Integer).should == true
+    p.subscriptions_count.is_a?(Integer).should == true
+    p.vote_score.is_a?(Integer).should == true
+
+    p.license_list.is_a?(Array).should == true
+    p.programming_language_list.is_a?(Array).should == true
+    p.operating_system_list.is_a?(Array).should == true
+    p.tag_list.is_a?(Array).should == true
+
+    p.license_list.map { |t| t.is_a?(String).should == true }
+    p.programming_language_list.map { |t| t.is_a?(String).should == true }
+    p.operating_system_list.map { |t| t.is_a?(String).should == true }
+    p.tag_list.map { |t| t.is_a?(String).should == true }
+
+    p.approved_urls.is_a?(Array).should == true
+    p.approved_screenshots.is_a?(Array).should == true
+    p.recent_releases.is_a?(Array).should == true
+
+    p.approved_urls.map { |t| t.is_a?(Freshmeat::URL).should == true }
+    p.approved_screenshots.map { |t| t.is_a?(Freshmeat::Screenshot).should == true }
+    p.recent_releases.map { |t| t.is_a?(Freshmeat::Release).should == true }
+  end
+
   describe "parameters" do
     it "should require an auth code" do
       lambda { Freshmeat.new }.should raise_error(ArgumentError, "wrong number of arguments (0 for 1)")
@@ -22,7 +55,9 @@ describe Freshmeat do
 
     it "overview" do
       f = Freshmeat.new("AAA")
-      f.project("samba").name.should == "Samba"
+      r = f.project("samba")
+      r.name.should == "Samba"
+      test_project(r)
     end
 
     it "comments" do
@@ -79,18 +114,29 @@ describe Freshmeat do
       r.map { |t| t.taggings_count.is_a?(Integer).should == true }
       r.map { |t| t.name.is_a?(String).should == true }
       r.map { |t| t.permalink.is_a?(String).should == true }
+      r.map { |t| t.projects.is_a?(Array).should == true }
     end
 
     it "a particular tag" do
       f = Freshmeat.new("AAA")
-      f.tags("960gs").length.should == 100
-      f.tags("960gs")[0].user_id.should == 33614
+      t = f.tag("960gs")
+      t.fid.is_a?(Integer).should == true
+      t.taggings_count.is_a?(Integer).should == true
+      t.name.is_a?(String).should == true
+      t.permalink.is_a?(String).should == true
+      t.projects.is_a?(Array).should == true
+      t.projects.length.should == 2
+
+      t.projects.map { |p| p.is_a?(Freshmeat::Project).should == true }
+      t.projects.map { |p| test_project(p) }
     end
 
     it "search" do
       f = Freshmeat.new("AAA")
-      f.search("foo").length.should == 10
-      f.search("foo")[0].user_id.should == 33614
+      r = f.search("foo")
+      r.length.should == 10
+      r.map { |t| t.is_a?(Freshmeat::Project).should == true }
+      r.map { |t| test_project(t) }
     end
   end
 end

@@ -33,12 +33,13 @@ class Freshmeat
     @urls ||= get("/projects/#{project}/urls.json").map {|x| URL.new(x["url"])}
   end
 
-  def tags(tag=nil)
-    if tag != nil
-      @tags ||= get("/tags/#{tag}.json")["projects"].map {|x| Project.new(x["project"])}
-    else
-      @tags ||= get("/tags/all.json").map {|x| Tag.new(x["tag"])}
-    end
+  def tag(tag)
+    r = get("/tags/#{tag}.json")
+    @tags ||= Tag.new(r["tag"], r["projects"].map {|x| Project.new(x)})
+  end
+
+  def tags()
+    @tags ||= get("/tags/all.json").map {|x| Tag.new(x["tag"])}
   end
 
   def search(query, page=1, args={})
