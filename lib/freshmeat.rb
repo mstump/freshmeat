@@ -30,7 +30,7 @@ class Freshmeat
   end
 
   def urls(project)
-    @urls ||= get("/projects/#{project}/urls.json").map {|x| URL.new(x["release"])}
+    @urls ||= get("/projects/#{project}/urls.json").map {|x| URL.new(x["url"])}
   end
 
   def tags(tag=nil)

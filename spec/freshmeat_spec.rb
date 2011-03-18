@@ -33,29 +33,36 @@ describe Freshmeat do
 
     it "releases" do
       f = Freshmeat.new("AAA")
-      f.releases("samba").map { |t| t.fid.is_a?(Integer).should == true }
-      f.releases("samba").map { |t| t.changelog.is_a?(String).should == true }
-      f.releases("samba").map { |t| (!! t.hidden_from_frontpage == t.hidden_from_frontpage).should == true }
-      f.releases("samba").map { |t| t.version.is_a?(String).should == true }
-      f.releases("samba").map { |t| t.tag_list.is_a?(Array).should == true }
-      f.releases("samba").map { |t| t.approved_at.is_a?(Time).should == true }
-      f.releases("samba").map { |t| t.created_at.is_a?(Time).should == true }
-      f.releases("samba").length.should == 100
+      r = f.releases("samba")
+      r.map { |t| t.fid.is_a?(Integer).should == true }
+      r.map { |t| t.changelog.is_a?(String).should == true }
+      r.map { |t| (!! t.hidden_from_frontpage == t.hidden_from_frontpage).should == true }
+      r.map { |t| t.version.is_a?(String).should == true }
+      r.map { |t| t.tag_list.is_a?(Array).should == true }
+      r.map { |t| t.approved_at.is_a?(Time).should == true }
+      r.map { |t| t.created_at.is_a?(Time).should == true }
+      r.length.should == 100
     end
 
     it "screenshots" do
       f = Freshmeat.new("AAA")
-      f.screenshots("gimp").map { |t| t.fid.is_a?(Integer).should == true }
-      f.screenshots("gimp").map { |t| t.created_at.is_a?(Time).should == true }
-      f.screenshots("gimp").map { |t| t.absolute_url.is_a?(String).should == true }
-      f.screenshots("gimp").map { |t| t.title.is_a?(String).should == true }
-      f.screenshots("gimp").length.should == 1
+      r = f.screenshots("gimp")
+      r.map { |t| t.fid.is_a?(Integer).should == true }
+      r.map { |t| t.created_at.is_a?(Time).should == true }
+      r.map { |t| t.absolute_url.is_a?(String).should == true }
+      r.map { |t| (t.title == nil || t.title.is_a?(String)).should == true }
+      r.length.should == 1
     end
 
     it "urls" do
       f = Freshmeat.new("AAA")
-      f.urls("samba").length.should == 4
-      f.urls("samba")[0].user_id.should == 33614
+      r = f.urls("samba")
+      r.length.should == 11
+      r.map { |t| t.fid.is_a?(Integer).should == true }
+      r.map { |t| t.redirector.is_a?(String).should == true }
+      r.map { |t| t.permalink.is_a?(String).should == true }
+      r.map { |t| t.label.is_a?(String).should == true }
+      r.map { |t| t.host.is_a?(String).should == true }
     end
   end
 
@@ -66,11 +73,12 @@ describe Freshmeat do
 
     it "all tags" do
       f = Freshmeat.new("AAA")
-      f.tags().length.should == 100
-      f.tags().map { |t| t.fid.is_a?(Integer).should == true }
-      f.tags().map { |t| t.taggings_count.is_a?(Integer).should == true }
-      f.tags().map { |t| t.name.is_a?(String).should == true }
-      f.tags().map { |t| t.permalink.is_a?(String).should == true }
+      r = f.tags()
+      r.length.should == 100
+      r.map { |t| t.fid.is_a?(Integer).should == true }
+      r.map { |t| t.taggings_count.is_a?(Integer).should == true }
+      r.map { |t| t.name.is_a?(String).should == true }
+      r.map { |t| t.permalink.is_a?(String).should == true }
     end
 
     it "a particular tag" do
