@@ -22,26 +22,32 @@ require 'spec_helper'
 
 describe Freshmeat do
 
-  def test_project(p)
-    p.fid.is_a?(Integer).should == true
+  def test_project_partial(p)
     p.permalink.is_a?(String).should == true
+    p.fid.is_a?(Integer).should == true
     p.name.is_a?(String).should == true
+    p.oneliner.is_a?(String).should == true
+    p.description.is_a?(String).should == true
+    p.license_list.is_a?(Array).should == true
+    p.license_list.map { |t| t.is_a?(String).should == true }
+  end
+
+  def test_project(p)
+    test_project_partial(p)
     p.popularity.is_a?(Numeric).should == true
     p.vitality.is_a?(Numeric).should == true
     p.created_at.is_a?(Time).should == true
-    p.description.is_a?(String).should == true
+
     p.user.is_a?(Freshmeat::User).should == true
-    p.oneliner.is_a?(String).should == true
+
     p.project_filters_count.is_a?(Integer).should == true
     p.subscriptions_count.is_a?(Integer).should == true
     p.vote_score.is_a?(Integer).should == true
 
-    p.license_list.is_a?(Array).should == true
     p.programming_language_list.is_a?(Array).should == true
     p.operating_system_list.is_a?(Array).should == true
     p.tag_list.is_a?(Array).should == true
 
-    p.license_list.map { |t| t.is_a?(String).should == true }
     p.programming_language_list.map { |t| t.is_a?(String).should == true }
     p.operating_system_list.map { |t| t.is_a?(String).should == true }
     p.tag_list.map { |t| t.is_a?(String).should == true }
@@ -157,6 +163,34 @@ describe Freshmeat do
       r.length.should == 10
       r.map { |t| t.is_a?(Freshmeat::Project).should == true }
       r.map { |t| test_project(t) }
+    end
+  end
+
+  describe "fetching recently released projects from the undocumented frontpage API: " do
+    FakeWeb.register_uri(:get, "http://freshmeat.net/index.json?auth_code=AAA", :body => File.read("spec/fixtures/recently_released.json"))
+
+    it "return a list of projects" do
+      f = Freshmeat.new("AAA")
+      r = f.recently_released_projects()
+      r.map { |p| p.is_a?(Freshmeat::PartialProject).should == true }
+      r.map { |p| test_project_partial(p) }
+    end
+
+    it "return a list of projects who have one release each" do
+      f = Freshmeat.new("AAA")
+      f.recently_released_projects().map { |p| p.recent_releases.length.should == 1 }
+      f.recently_released_projects().each do |p|
+        p.recent_releases.each do |z|
+          z.map { |t| t.fid.is_a?(Integer).should == true }
+          z.map { |t| t.changelog.is_a?(String).should == true }
+          z.map { |t| (!! t.hidden_from_frontpage == t.hidden_from_frontpage).should == true }
+          z.map { |t| t.version.is_a?(String).should == true }
+          z.map { |t| t.tag_list.is_a?(Array).should == true }
+          z.map { |t| t.approved_at.is_a?(Time).should == true }
+          z.map { |t| t.created_at.is_a?(Time).should == true }
+        end
+      end
+      f.recently_released_projects().map { |p| test_project_partial(p) }
     end
   end
 end
