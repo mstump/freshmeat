@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{freshmeat}
-  s.version = "1.1.0"
+  s.version = "1.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Matthew Stump"]
-  s.date = %q{2011-05-04}
+  s.date = %q{2011-07-11}
   s.description = %q{A simple wrapper around the Freshmeat.net API}
   s.email = %q{mstump@matthewstump.com}
   s.extra_rdoc_files = [
@@ -29,6 +29,7 @@ Gem::Specification.new do |s|
     "spec/fixtures/comments.json",
     "spec/fixtures/dependencies.json",
     "spec/fixtures/localhost.json",
+    "spec/fixtures/overlimit.json",
     "spec/fixtures/recently_released.json",
     "spec/fixtures/releases.json",
     "spec/fixtures/samba.json",
