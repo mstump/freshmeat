@@ -18,9 +18,12 @@
 =end
 
 require 'rubygems'
+require 'net/http'
 require 'httparty'
 require 'time'
 require File.dirname(__FILE__) + '/freshmeat/data'
+
+class FreshmeatAPICreditsExceeded < RuntimeError; end
 
 # Simple wrapper around the Freshmeat.net data and frontpage API.  For
 # detailed information about the attributes of each datatype please
@@ -102,7 +105,19 @@ class Freshmeat
   private
 
     def get(url, args={})
-      self.class.get(url, :query => args.merge({:auth_code => @auth_code}), :format => :json)
+      response = self.class.get(url, :query => args.merge({:auth_code => @auth_code}), :format => :json)
+      case response.code
+        when 200
+          return response
+        when 503
+          if response["status"]
+            raise FreshmeatAPICreditsExceeded.new(response["status"])
+          else
+            response.error!
+          end
+        else
+          response.error!
+      end
     end
 
 end

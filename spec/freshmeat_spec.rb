@@ -18,6 +18,7 @@
 =end
 
 require 'rspec'
+require 'net/http'
 require 'spec_helper'
 
 describe Freshmeat do
@@ -193,4 +194,34 @@ describe Freshmeat do
       f.recently_released_projects().map { |p| test_project_partial(p) }
     end
   end
+
+  it "going over the API limit should throw an exception" do
+    FakeWeb.register_uri(:get, "http://freshmeat.net/search.json?q=amforth&page=1&auth_code=AAA",
+                         :body => File.read("spec/fixtures/overlimit.json"),
+                         :status => ["503", "Service Temporarily Unavailable"])
+    f = Freshmeat.new("AAA")
+    lambda {
+      f.search("amforth")
+    }.should raise_error(FreshmeatAPICreditsExceeded)
+  end
+
+  it "an unexpected HTTP error should result in an HTTPException and we shouldn't attempt to parse" do
+    FakeWeb.register_uri(:get, "http://freshmeat.net/search.json?q=amforth&page=1&auth_code=AAA",
+                         :status => ["500", "Internal Server Error"])
+    f = Freshmeat.new("AAA")
+    lambda {
+      f.search("amforth")
+    }.should raise_error(Net::HTTPFatalError, "500 \"Internal Server Error\"")
+  end
+
+  it "Bad authentication attempt should result in an exception" do
+    FakeWeb.register_uri(:get, "http://freshmeat.net/search.json?q=amforth&page=1&auth_code=AAA",
+                         :status => ["401", "Authorization Required"])
+    f = Freshmeat.new("AAA")
+    lambda {
+      f.search("amforth")
+    }.should raise_error(Net::HTTPServerException, "401 \"Authorization Required\"")
+  end
+
+
 end
